@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("assets/fonts/Montserrat/static/Montserrat-Black.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 1px solid rgb(203, 139, 21);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.main {
+    border: 1px solid rgb(37, 127, 118);
+}
+
+.footer {
+    border: 1px solid rgb(199, 104, 45);
+}
