@@ -36,17 +36,14 @@ body {
     border: 5px solid rgb(203, 139, 21);
 }
 
-.nav-list {
+.navList {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.nav-list {
     list-style: none;
 }
 
-.nav-link {
+.navLink {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
@@ -74,4 +71,14 @@ body {
     padding: 20px;
     margin: 10px;
     border: 5px solid rgb(199, 104, 45);
+}
+
+.footerList {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.imgLogo {
+    width: 50px;
 }
